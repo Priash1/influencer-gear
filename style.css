@@ -3,7 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
    top: 95px;
-  background-color:  #f0eded;
+  background-color:  #f5f1f1;
   margin: 0;
 }
 /* font awesome */
@@ -14,6 +14,9 @@ body{
 header{
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
 }
 header>ul>li{
     list-style: none;
@@ -27,13 +30,22 @@ header>ul>li>a{
 }
 /* main part  */
 .container{
-    padding-left: 100px;
+    padding-left: 70px;
     padding-right: 100px;
+}
+.main-camera:hover{
+     transform: rotate(180deg);
+}
+
+.main-camera{
+    margin-left: 131px;
+     transition: transform 2s;
 }
 .influencer{
     display: flex;
     margin-top: 50px;
 }
+
 .details h1{
     font-size: 52px;
 }
@@ -47,9 +59,7 @@ header>ul>li>a{
 .fa-arrow-right{
     margin-left: 10px;
 }
-.main-camera{
-    margin-left: 131px;
-}
+
 .main-camera img{
     width: 440px;
     height: 414px;
@@ -83,7 +93,6 @@ header>ul>li>a{
     margin-right: 30px;
     background-color: white;
     width: 329px;
-    height: 490px;
     border-radius: 5px;
 }
 .feature-image img{
@@ -94,6 +103,10 @@ padding: 10px;
 .fa-star{
     width: 16px;
     height: 16px;
+    color: #FB8200;
+}
+.fa-star-half-alt{
+    color: #FB8200; 
 }
 .feature p{
     font-size: 14px;
@@ -106,6 +119,7 @@ padding: 10px;
 /* footer part  */
 footer{
     background-color: #0A0826;
+    margin-top: 100px;
 }
 .last{
     color: white;
